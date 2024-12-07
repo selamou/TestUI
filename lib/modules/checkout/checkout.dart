@@ -28,7 +28,7 @@ class _CheckoutPageState extends State<CheckoutPage> {
           padding: const EdgeInsets.only(left: 20.0),
           child: IconButton(
             onPressed: () {
-              // Navigator.pop(context);
+              Navigator.pop(context);
             },
             tooltip: 'Open menu',
             icon: Icon(
